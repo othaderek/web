@@ -88,31 +88,43 @@
 
 // simpleArraySum([1,2,3]);
 
-var a = [1,2,3]
-var b = [2,1,1]
+// var a = [1,2,3]
+// var b = [2,1,1]
 
-function compareTriplets(a, b) {
-    var score = [];
+// function compareTriplets(a, b) {
+//     var score = [];
 
-    for (let i = 0; i < a.length; i++) {
-        var one = 0;
-        var two = 0;
-        if (a[i] > b[i]) {
-            one++;
-            } else {
-                two++;
-            }score = [one, two];
-        }console.log(score);
-}
+//     for (let i = 0; i < a.length; i++) {
+//         var one = 0;
+//         var two = 0;
+//         if (a[i] > b[i]) {
+//             one++;
+//             } else {
+//                 two++;
+//             }score = [one, two];
+//         }console.log(score);
+// }
 
-compareTriplets(a, b);
+// compareTriplets(a, b);
 
-var arr = [1,2,3,4,5,6,7,8,9,10]
+// var arr = [1,2,3,4,5,6,7,8,9,10]
 
-function letters(arr) {
-	for (let i = 0; i < arr.length; i++) {
-		console.log(arr[i]);
-	}
-}
+// function letters(arr) {
+// 	for (let i = 0; i < arr.length; i++) {
+// 		console.log(arr[i]);
+// 	}
+// }
 
-letters(arr);
+// letters(arr);
+
+
+var callback = (function () {
+	return "Fuck you";
+})();
+
+console.log(callback);
+
+
+
+
+
